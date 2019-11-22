@@ -6,9 +6,3 @@ spring:
       fail-fast: true
       username: root
       password: root
----
-spring:
-  profiles: local
-  cloud:
-    config:
-      enabled: false
