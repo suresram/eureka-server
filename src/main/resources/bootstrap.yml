@@ -4,6 +4,11 @@ spring:
   cloud:
     config:
       fail-fast: true
-      uri: http://localhost:8763
       username: root
       password: root
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      enabled: false
